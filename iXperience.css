@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Trispace:wght@200&display=swap');
+body{
+	background: papayawhip;
+}
+h1{
+	position: absolute;
+    right: 39%;
+    left: 3%;
+}
+p{
+	position: absolute;
+	left: 3%;
+	right: 39%;
+	top: 30%;
+}
+h3{
+	position: absolute;
+	left: 3%;
+	right: 39%;
+	top: 25%;
+}
+hr{
+	position: absolute;
+    left: 3%;
+    right: 39%;
+    top: 27%;
+    border: 3px solid #3e3d40;
+}
+.font{
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Trispace', sans-serif;
+	color: #3e3d40;;
+}
+
+.position {
+	position: absolute;
+    left: 65%;
+    top: 10%;
+    width: 30%;
+    border-radius: 5%;
+    z-index: 999;
+}
+
+.para{
+	position: absolute;
+	bottom: 30%;
+}
+.layer{
+	display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 30%;
+    border-radius: 5%;
+}
+
+.custom-shape-divider-bottom-1657218506 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -999;
+}
+
+.custom-shape-divider-bottom-1657218506 svg {
+    position: relative;
+    display: block;
+    width: calc(237% + 1.3px);
+    height: 292px;
+    transform: rotateY(180deg);
+    z-index: -999;
+}
+
+.custom-shape-divider-bottom-1657218506 .shape-fill {
+    fill: #3e3d40;
+}
+
+.navbar{
+    background-color: #3e3d40;
+}
+
+.nav.navbar-nav.nav-link.li a {
+    color: papayawhip;
+}
+.cards{
+    display: flex;
+    position: absolute;
+    top: 43%;
+    left: 3%;
+}
+.card-body{
+    position: relative;
+    width: 150%;
+    color: #3e3d40;
+}
